@@ -36,7 +36,7 @@ frutas.sort((a, b) => {
 console.log(frutas);
 
 
-// e) Ordenar o array abaixo em ordem alfabética decrescente.
+//e) Ordenar o array abaixo em ordem alfabética decrescente.
 
 frutas.sort((a, b) => {
     return b.localeCompare(a);
@@ -48,3 +48,14 @@ console.log(frutas);
 
 // f) Ordenar o array abaixo em ordem crescente, de acordo com a quantidade de caracters
 // (do que tem menos caracteres, para o que tem mais).
+
+//let ordemFrutas = frutas[0];
+
+//for (let i = 0; i < frutas.length; i++) {
+  //  const elementoAtual = frutas[i];
+    //ordemFrutas = ordemFrutas + ",S" + elementoAtual;
+
+//}
+
+//console.log(ordemFrutas);
+
